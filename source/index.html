@@ -4,9 +4,98 @@
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p>
-
+  <body class="page">
+    <header class="header"><img class="logo">
+      <nav class="navigation">
+        <button class="navigation__burger-button" type="button"></button>
+        <button class="navigation__close-button" type="button"></button>
+        <ul class="navigation__list">
+          <li class="navigation__item">Главная</li>
+          <li class="navigation__item">Фотографии</li>
+          <li class="navigation__item">Конкурс</li>
+          <li class="navigation__item">HTML Academy</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <h1 class="visually-hidden">Пинк</h1>
+      <section class="intro">
+        <h2 class="visually-hidden">Ссылки на приложение</h2>
+        <div class="intro__image"></div>
+        <div class="intro__content"><a class="intro__download"></a>
+          <ul class="intro__list">
+            <li class="intro__list-item"><img class="intro__icon intro__icon_mac"></li>
+            <li class="intro__list-item"><img class="intro__icon intro__icon_android"></li>
+            <li class="intro__list-item"><img class="intro__icon intro__icon_windows"></li>
+          </ul>
+          <p class="intro__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+        </div>
+      </section>
+      <section class="description">
+        <h2 class="visually-hidden">Описание услуг</h2>
+        <div class="description__intro">
+          <p class="description__tagline">Устали от серости мегаполиса?</p>
+          <p class="description__tagline">Нам есть, что вам предложить!</p>
+        </div>
+        <p class="description__lead">Поднимает настроение</p>
+        <p class="description__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        <p class="description__lead">Меняет мир вокруг</p>
+        <p class="description__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+        <p class="description__lead">Заводит новых друзей</p>
+        <p class="description__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        <div class="description__image"></div>
+      </section>
+      <section class="reviews">
+        <h2 class="visually-hidden">Отзывы</h2>
+        <p class="reviews__name">Николай Петров</p>
+        <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+        <div class="slider"><span class="slider__control slider__control_active"></span><span class="slider__control"></span><span class="slider__control"></span></div>
+      </section>
+      <section class="prices">
+        <h2 class="visually-hidden">Тарифы</h2>
+        <ul class="prices__slide-list">
+          <li class="prices__slide-item">
+            <div class="prices__heading">
+              <p class="prices__tariff">База</p>
+              <p class="prices__price">1,99 USD</p>
+            </div>
+            <p class="prices__option prices__option_true">Розовый фильтр</p>
+            <p class="prices__option prices__option_false">Смайлики</p>
+            <p class="prices__option prices__option_false">Комментарии</p>
+          </li>
+          <li class="prices__slide-item">
+            <div class="prices__heading">
+              <p class="prices__tariff">Стандарт</p>
+              <p class="prices__price">3,99 USD</p>
+            </div>
+            <p class="prices__option prices__option_true">Розовый фильтр</p>
+            <p class="prices__option prices__option_true">Смайлики</p>
+            <p class="prices__option prices__option_false">Комментарии</p>
+          </li>
+          <li class="prices__slide-item">
+            <div class="prices__heading">
+              <p class="prices__tariff">Анлим</p>
+              <p class="prices__price">9,99 USD</p>
+            </div>
+            <p class="prices__option prices__option_true">Розовый фильтр</p>
+            <p class="prices__option prices__option_true">Смайлики</p>
+            <p class="prices__option prices__option_true">Комментарии</p>
+          </li>
+        </ul>
+      </section>
+      <section class="contact">
+        <h2 class="visually-hidden">Контакты</h2>
+        <p class="contact__lead">Остались вопросы? Свяжитесь с нами!</p>
+        <address class="contact__address">
+          <p class="contact__action">Звоните:</p>
+          <p class="contact__detail">+7 (812) 555-66-66</p>
+          <p class="contact__action">Пишите:</p>
+          <p class="contact__detail">mail@htmlacademy.ru</p>
+          <p class="contact__action">Приезжайте в гости:</p>
+          <p class="contact__detail">ул. Большая Конюшенная, 19/8</p>
+        </address>
+        <iframe src="https://yandex.ru/map-widget/v1/-/CBBfmSdwWA" width="100%" height="200" frameborder="0" allowfullscreen></iframe>
+      </section>
+    </main>
   </body>
 </html>

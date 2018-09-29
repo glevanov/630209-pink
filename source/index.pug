@@ -1,0 +1,95 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    title HTML Academy: Пинк
+  body.page
+    header.header
+      img.logo
+      nav.navigation
+        button.navigation__burger-button(type="button")
+        button.navigation__close-button(type="button")
+        ul.navigation__list
+          li.navigation__item Главная
+          li.navigation__item Фотографии
+          li.navigation__item Конкурс
+          li.navigation__item HTML Academy
+
+    main.main
+      h1.visually-hidden Пинк
+
+      section.intro
+        h2.visually-hidden Ссылки на приложение
+        div.intro__image
+        div.intro__content
+          a.intro__download
+          ul.intro__list
+            li.intro__list-item
+              img.intro__icon.intro__icon_mac
+            li.intro__list-item
+              img.intro__icon.intro__icon_android
+            li.intro__list-item
+              img.intro__icon.intro__icon_windows
+          p.intro__description Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+
+      section.description
+        h2.visually-hidden Описание услуг
+        div.description__intro
+          p.description__tagline Устали от серости мегаполиса?
+          p.description__tagline Нам есть, что вам предложить!
+        p.description__lead Поднимает настроение
+        p.description__text Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+        p.description__lead Меняет мир вокруг
+        p.description__text Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+        p.description__lead Заводит новых друзей
+        p.description__text Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+        div.description__image
+
+      section.reviews
+        h2.visually-hidden Отзывы
+        p.reviews__name Николай Петров
+        p.reviews__text «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+        div.slider
+          span.slider__control.slider__control_active
+          span.slider__control
+          span.slider__control
+
+      section.prices
+        h2.visually-hidden Тарифы
+        ul.prices__slide-list
+          li.prices__slide-item
+            div.prices__heading
+              p.prices__tariff База
+              p.prices__price 1,99 USD
+            p.prices__option.prices__option_true Розовый фильтр
+            p.prices__option.prices__option_false Смайлики
+            p.prices__option.prices__option_false Комментарии
+
+          li.prices__slide-item
+            div.prices__heading
+              p.prices__tariff Стандарт
+              p.prices__price 3,99 USD
+            p.prices__option.prices__option_true Розовый фильтр
+            p.prices__option.prices__option_true Смайлики
+            p.prices__option.prices__option_false Комментарии
+
+          li.prices__slide-item
+            div.prices__heading
+              p.prices__tariff Анлим
+              p.prices__price 9,99 USD
+            p.prices__option.prices__option_true Розовый фильтр
+            p.prices__option.prices__option_true Смайлики
+            p.prices__option.prices__option_true Комментарии
+
+      section.contact
+        h2.visually-hidden Контакты
+        p.contact__lead Остались вопросы? Свяжитесь с нами!
+        address.contact__address
+          p.contact__action Звоните:
+          p.contact__detail +7 (812) 555-66-66
+          p.contact__action Пишите:
+          p.contact__detail mail@htmlacademy.ru
+          p.contact__action Приезжайте в гости:
+          p.contact__detail ул. Большая Конюшенная, 19/8
+
+        iframe(src="https://yandex.ru/map-widget/v1/-/CBBfmSdwWA" width="100%" height="200" frameborder="0" allowfullscreen)
