@@ -26,10 +26,9 @@ html(lang="ru")
         h2.intro__tagline Конкурс на самое безбашенное путешествие с Пинк
         p.intro__description Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:
 
-
       form.form(action="https://echo.htmlacademy.ru" method="post")
         fieldset.form__name
-          legend.visually-hidden Фамилия, Имя, Отчество
+          legend.visually-hidden Фамилия, имя, отчество
           label.form__label Фамилия:
           input.form__input(type="text" placeholder="Укажите фамилию *" required)
           label.form__label Имя:
@@ -72,10 +71,12 @@ html(lang="ru")
             li.form__app-item
               input.form__radio-input(type="radio" name="app" id="ios" value="ios" checked)
               label.form__radio-label(for="ios") Pink для iOS
+            li.form__app-item
               input.form__radio-input(type="radio" name="app" id="android" value="android")
               label.form__radio-label(for="android") Pink на Android
-              input.form__radio-input(type="radio" name="app" id="wp" value="wp")
-              label.form__radio-label(for="wp") Windows Phone
+            li.form__app-item
+              input.form__radio-input(type="radio" name="app" id="windows-phone" value="windows-phone")
+              label.form__radio-label(for="windows-phone") Windows Phone
 
         label.form__legend(for="feedback") Опишите свои эмоции
         textarea.form__feedback(name="feedback" id="feedback" placeholder="Можно прям в красках, не стесняясь в выражениях")

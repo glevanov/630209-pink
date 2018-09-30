@@ -28,11 +28,11 @@ html(lang="ru")
           a.button.get-app__download(href="#") Скачать приложение
           ul.get-app__list
             li.get-app__list-item
-              img.get-app__icon.get-app__icon_ios(src="http://placehold.it/47x56" width="47" height="56" alt="iOS")
+              img.get-app__icon.get-app__icon_apple(src="http://placehold.it/47x56" width="47" height="56" alt="Apple")
             li.get-app__list-item
               img.get-app__icon.get-app__icon_android(src="http://placehold.it/43x47" width="43" height="47" alt="Android")
             li.get-app__list-item
-              img.get-app__icon.get-app__icon_windows-phone(src="http://placehold.it/44x41" width="44" height="41" alt="Windows Phone")
+              img.get-app__icon.get-app__icon_windows(src="http://placehold.it/44x41" width="44" height="41" alt="Windows")
           p.get-app__description Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
 
       section.description
@@ -67,7 +67,6 @@ html(lang="ru")
             p.prices__option.prices__option_true Розовый фильтр
             p.prices__option.prices__option_false Смайлики
             p.prices__option.prices__option_false Комментарии
-
           li.prices__slide-item
             div.prices__heading
               p.prices__tariff Стандарт
@@ -75,7 +74,6 @@ html(lang="ru")
             p.prices__option.prices__option_true Розовый фильтр
             p.prices__option.prices__option_true Смайлики
             p.prices__option.prices__option_false Комментарии
-
           li.prices__slide-item
             div.prices__heading
               p.prices__tariff Анлим
@@ -83,6 +81,10 @@ html(lang="ru")
             p.prices__option.prices__option_true Розовый фильтр
             p.prices__option.prices__option_true Смайлики
             p.prices__option.prices__option_true Комментарии
+        div.slider
+          span.slider__control.slider__control_active
+          span.slider__control
+          span.slider__control
 
       section.contact
         h2.visually-hidden Контакты
@@ -94,5 +96,4 @@ html(lang="ru")
           p.contact__detail mail@htmlacademy.ru
           p.contact__action Приезжайте в гости:
           p.contact__detail ул. Большая Конюшенная, 19/8
-
-        iframe(src="https://yandex.ru/map-widget/v1/-/CBBfmSdwWA" width="100%" height="200" frameborder="0" allowfullscreen)
+        iframe(src="https://yandex.ru/map-widget/v1/-/CBBfmSdwWA" width="100%" height="200" frameborder="0")
