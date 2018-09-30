@@ -12,9 +12,12 @@ html(lang="ru")
         button.navigation__close-button(type="button")
         ul.navigation__list
           li.navigation__item Главная
-          li.navigation__item Фотографии
-          li.navigation__item Конкурс
-          li.navigation__item HTML Academy
+          li.navigation__item
+            a(href="photo.html") Фотографии
+          li.navigation__item
+            a(href="form.html") Конкурс
+          li.navigation__item
+            a(href="https://htmlacademy.ru/") HTML Academy
 
     main.main
       h1.visually-hidden Пинк
@@ -22,7 +25,7 @@ html(lang="ru")
         h2.visually-hidden Ссылки на приложение
         div.get-app__image
         div.get-app__content
-          a.button.get-app__download Скачать приложение
+          a.button.get-app__download(href="#") Скачать приложение
           ul.get-app__list
             li.get-app__list-item
               img.get-app__icon.get-app__icon_ios(src="http://placehold.it/47x56" width="47" height="56" alt="iOS")

@@ -6,15 +6,19 @@ html(lang="ru")
     title HTML Academy: Пинк
   body.page
     header.header
-      img.logo
+      a(href="index.html")
+        img.logo
       nav.navigation
         button.navigation__burger-button(type="button")
         button.navigation__close-button(type="button")
         ul.navigation__list
-          li.navigation__item Главная
+          li.navigation__item
+            a(href="index.html") Главная
           li.navigation__item Фотографии
-          li.navigation__item Конкурс
-          li.navigation__item HTML Academy
+          li.navigation__item
+            a(href="form.html") Конкурс
+          li.navigation__item
+            a(href="https://htmlacademy.ru/") HTML Academy
 
     main.main
       h1.visually-hidden Фотографии
