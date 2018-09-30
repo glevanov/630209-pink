@@ -102,7 +102,7 @@ html(lang="ru")
       section.upload
         h2.visually-hidden Форма загрузки фотографии
         p.upload__tagline Затмите их всех! Выкладывайте все, что накопилось в телефоне!
-        form.upload__form
+        form.upload__form(action="https://echo.htmlacademy.ru" method="post")
           img.upload__preview(src="http://placehold.it/280x374" width="280" height="374" alt="Ваша фотография")
           div.upload__controls
             button.upload__control.upload__control_crop(type="button")
