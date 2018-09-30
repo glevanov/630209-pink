@@ -22,6 +22,95 @@ html(lang="ru")
         h2.intro__tagline Фотографии пользователей
         p.intro__description Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?
 
+      article.post
+        span.post__panorama-title ПАНОРАМА ДНЯ
+        img.post__picture.post__picture_panorama(src="http://placehold.it/320x137" width="320" height="137" alt="Фотография пользователя Анна")
+        section.post__body
+          h2.post__author Анна
+          p.post__time (5 минут назад)
+          p.post__text Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
+          div.likes
+            button.likes__button(type="button")
+              img.likes__icon(src="http://placehold.it/13x12" width="13" height="12" alt="Лайк")
+            p.likes__counter Нравится: 215
+
+      article.post
+        img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Левон")
+        section.post__body
+          h2.post__author Левон
+          p.post__time (5 часов назад)
+          p.post__text Вчера он на луну летал, сегодня в руки к нам попал.
+          div.likes
+            button.likes__button(type="button")
+              img.likes__icon(src="http://placehold.it/13x12" width="13" height="12" alt="Лайк")
+            p.likes__counter Нравится: 356
+      article.post
+        img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Антон")
+        section.post__body
+          h2.post__author Антон
+          p.post__time (12 часов назад)
+          p.post__text Соседи будут рады!
+          div.likes
+            button.likes__button(type="button")
+              img.likes__icon(src="http://placehold.it/13x12" width="13" height="12" alt="Лайк")
+            p.likes__counter Нравится: 666
+      article.post
+        img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Борис")
+        section.post__body
+          h2.post__author Борис
+          p.post__time (20 часов назад)
+          p.post__text Здесь могла быть ваша цитата о высоком и вечном.
+          div.likes
+            button.likes__button(type="button")
+              img.likes__icon(src="http://placehold.it/13x12" width="13" height="12" alt="Лайк")
+            p.likes__counter Нравится: 215
+      article.post
+        img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Сергей")
+        section.post__body
+          h2.post__author Сергей
+          p.post__time (25 часов назад)
+          p.post__text Самая кубанская в мире!
+          div.likes
+            button.likes__button(type="button")
+              img.likes__icon(src="http://placehold.it/13x12" width="13" height="12" alt="Лайк")
+            p.likes__counter Нравится: 4
+      article.post
+        img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Максим")
+        section.post__body
+          h2.post__author Максим
+          p.post__time (40 часов назад)
+          p.post__text Где снег-то?
+          div.likes
+            button.likes__button(type="button")
+              img.likes__icon(src="http://placehold.it/13x12" width="13" height="12" alt="Лайк")
+            p.likes__counter Нравится: 150
+      article.post
+        img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Надежда")
+        section.post__body
+          h2.post__author Надежда
+          p.post__time (45 часов назад)
+          p.post__text Всем GM и взаимные лайки!
+          div.likes
+            button.likes__button(type="button")
+              img.likes__icon(src="http://placehold.it/13x12" width="13" height="12" alt="Лайк")
+            p.likes__counter Нравится: 2560
+
+      section.upload
+        h2.visually-hidden Форма загрузки фотографии
+        p.upload__tagline Затмите их всех! Выкладывайте все, что накопилось в телефоне!
+        form.upload__form
+          img.upload__preview(src="http://placehold.it/280x374" width="280" height="374" alt="Ваша фотография")
+          div.upload__controls
+            button.upload__control.upload__control_crop(type="button")
+            button.upload__control.upload__control_fill(type="button")
+            button.upload__control.upload__control_contrast(type="button")
+          div.upload__slider
+            div.upload__slider-scale
+              div.upload__slider-bar
+          div.upload__buttons-wrap
+            button.button.upload__button.upload__button_submit(type="submit") Запостить
+            button.button.upload__button.upload__button_cancel(type="button") Отмена
+
     footer.footer
       img.footer__logo(src="http://placehold.it/147x40" width="147" height="40" alt="Пинк")
 
