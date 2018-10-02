@@ -8,8 +8,8 @@
   <body class="page">
     <header class="header"><a href="index.html"><img class="logo" src="http://placehold.it/75x22" width="75" height="22" alt="Пинк"></a>
       <nav class="navigation">
-        <button class="navigation__burger-button" type="button"></button>
-        <button class="navigation__close-button" type="button"></button>
+        <button class="navigation__burger--button" type="button"></button>
+        <button class="navigation__close--button" type="button"></button>
         <ul class="navigation__list">
           <li class="navigation__item"><a href="index.html">Главная</a></li>
           <li class="navigation__item"><a href="photo.html">Фотографии</a></li>
@@ -21,18 +21,27 @@
     <main class="main">
       <h1 class="visually-hidden">Регистрация на конкурс</h1>
       <section class="intro">
-        <h2 class="intro__tagline">Конкурс на самое безбашенное путешествие с Пинк</h2>
+        <p class="intro__tagline">Конкурс на самое безбашенное путешествие с Пинк</p>
         <p class="intro__description">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
       </section>
       <form class="form" action="https://echo.htmlacademy.ru" method="post">
         <fieldset class="form__name">
-          <legend class="visually-hidden">Фамилия, имя, отчество</legend>
-          <label class="form__label">Фамилия:</label>
-          <input class="form__input" type="text" placeholder="Укажите фамилию *" required>
-          <label class="form__label">Имя:</label>
-          <input class="form__input" type="text" placeholder="Введите ваше имя *" required>
-          <label class="form__label">Отчество:</label>
-          <input class="form__input" type="text" placeholder="Ну и отчество тоже">
+          <legend class="visually-hidden">Фамилия, имя, отчество
+            <ul class="form__options-list">
+              <li class="form__options-item">
+                <label class="form__label">Фамилия:</label>
+                <input class="form__input" type="text" placeholder="Укажите фамилию *" required>
+              </li>
+              <li class="form__options-item">
+                <label class="form__label">Имя:</label>
+                <input class="form__input" type="text" placeholder="Введите ваше имя *" required>
+              </li>
+              <li class="form__options-item">
+                <label class="form__label">Отчество:</label>
+                <input class="form__input" type="text" placeholder="Ну и отчество тоже">
+              </li>
+            </ul>
+          </legend>
         </fieldset>
         <fieldset class="form__options">
           <legend class="form__legend">Ваши безбашенные достижения в путешествии</legend>

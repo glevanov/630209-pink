@@ -9,8 +9,8 @@ html(lang="ru")
       a(href="index.html")
         img.logo(src="http://placehold.it/75x22" width="75" height="22" alt="Пинк")
       nav.navigation
-        button.navigation__burger-button(type="button")
-        button.navigation__close-button(type="button")
+        button.navigation__burger--button(type="button")
+        button.navigation__close--button(type="button")
         ul.navigation__list
           li.navigation__item
             a(href="index.html") Главная
@@ -23,18 +23,22 @@ html(lang="ru")
     main.main
       h1.visually-hidden Регистрация на конкурс
       section.intro
-        h2.intro__tagline Конкурс на самое безбашенное путешествие с Пинк
+        p.intro__tagline Конкурс на самое безбашенное путешествие с Пинк
         p.intro__description Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:
 
       form.form(action="https://echo.htmlacademy.ru" method="post")
         fieldset.form__name
           legend.visually-hidden Фамилия, имя, отчество
-          label.form__label Фамилия:
-          input.form__input(type="text" placeholder="Укажите фамилию *" required)
-          label.form__label Имя:
-          input.form__input(type="text" placeholder="Введите ваше имя *" required)
-          label.form__label Отчество:
-          input.form__input(type="text" placeholder="Ну и отчество тоже")
+            ul.form__options-list
+              li.form__options-item
+                label.form__label Фамилия:
+                input.form__input(type="text" placeholder="Укажите фамилию *" required)
+              li.form__options-item
+                label.form__label Имя:
+                input.form__input(type="text" placeholder="Введите ваше имя *" required)
+              li.form__options-item
+                label.form__label Отчество:
+                input.form__input(type="text" placeholder="Ну и отчество тоже")
 
         fieldset.form__options
           legend.form__legend Ваши безбашенные достижения в путешествии

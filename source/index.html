@@ -8,8 +8,8 @@
   <body class="page">
     <header class="header"><img class="logo" src="http://placehold.it/75x22" width="75" height="22" alt="Пинк">
       <nav class="navigation">
-        <button class="navigation__burger-button" type="button"></button>
-        <button class="navigation__close-button" type="button"></button>
+        <button class="navigation__burger--button" type="button"></button>
+        <button class="navigation__close--button" type="button"></button>
         <ul class="navigation__list">
           <li class="navigation__item">Главная</li>
           <li class="navigation__item"><a href="photo.html">Фотографии</a></li>
@@ -25,9 +25,9 @@
         <div class="get-app__image"></div>
         <div class="get-app__content"><a class="button get-app__download" href="#">Скачать приложение</a>
           <ul class="get-app__list">
-            <li class="get-app__list-item"><img class="get-app__icon get-app__icon_apple" src="http://placehold.it/47x56" width="47" height="56" alt="Apple"></li>
-            <li class="get-app__list-item"><img class="get-app__icon get-app__icon_android" src="http://placehold.it/43x47" width="43" height="47" alt="Android"></li>
-            <li class="get-app__list-item"><img class="get-app__icon get-app__icon_windows" src="http://placehold.it/44x41" width="44" height="41" alt="Windows"></li>
+            <li class="get-app__list-item"><a href="#"><img class="get-app__icon get-app__icon--apple" src="http://placehold.it/47x56" width="47" height="56" alt="Apple"></a></li>
+            <li class="get-app__list-item"><a href="#"><img class="get-app__icon get-app__icon--android" src="http://placehold.it/43x47" width="43" height="47" alt="Android"></a></li>
+            <li class="get-app__list-item"><a href="#"><img class="get-app__icon get-app__icon--windows" src="http://placehold.it/44x41" width="44" height="41" alt="Windows"></a></li>
           </ul>
           <p class="get-app__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
         </div>
@@ -48,9 +48,25 @@
       </section>
       <section class="reviews">
         <h2 class="visually-hidden">Отзывы</h2>
-        <p class="reviews__name">Николай Петров</p>
-        <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-        <div class="slider"><span class="slider__control slider__control_active"></span><span class="slider__control"></span><span class="slider__control"></span></div>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <p class="reviews__name">Николай Петров</p>
+            <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </li>
+          <li class="reviews__item">
+            <p class="reviews__name">Николай Петров</p>
+            <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </li>
+          <li class="reviews__item">
+            <p class="reviews__name">Николай Петров</p>
+            <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </li>
+        </ul>
+        <div class="slider">
+          <input class="slider__control slider__control--active" type="radio" name="reviews-slider" value="0" checked>
+          <input class="slider__control" type="radio" name="reviews-slider" value="1">
+          <input class="slider__control" type="radio" name="reviews-slider" value="2">
+        </div>
       </section>
       <section class="prices">
         <h2 class="visually-hidden">Тарифы</h2>
@@ -60,41 +76,51 @@
               <p class="prices__tariff">База</p>
               <p class="prices__price">1,99 USD</p>
             </div>
-            <p class="prices__option prices__option_true">Розовый фильтр</p>
-            <p class="prices__option prices__option_false">Смайлики</p>
-            <p class="prices__option prices__option_false">Комментарии</p>
+            <p class="prices__option prices__option--true">Розовый фильтр</p>
+            <p class="prices__option prices__option--false">Смайлики</p>
+            <p class="prices__option prices__option--false">Комментарии</p>
           </li>
           <li class="prices__slide-item">
             <div class="prices__heading">
               <p class="prices__tariff">Стандарт</p>
               <p class="prices__price">3,99 USD</p>
             </div>
-            <p class="prices__option prices__option_true">Розовый фильтр</p>
-            <p class="prices__option prices__option_true">Смайлики</p>
-            <p class="prices__option prices__option_false">Комментарии</p>
+            <p class="prices__option prices__option--true">Розовый фильтр</p>
+            <p class="prices__option prices__option--true">Смайлики</p>
+            <p class="prices__option prices__option--false">Комментарии</p>
           </li>
           <li class="prices__slide-item">
             <div class="prices__heading">
               <p class="prices__tariff">Анлим</p>
               <p class="prices__price">9,99 USD</p>
             </div>
-            <p class="prices__option prices__option_true">Розовый фильтр</p>
-            <p class="prices__option prices__option_true">Смайлики</p>
-            <p class="prices__option prices__option_true">Комментарии</p>
+            <p class="prices__option prices__option--true">Розовый фильтр</p>
+            <p class="prices__option prices__option--true">Смайлики</p>
+            <p class="prices__option prices__option--true">Комментарии</p>
           </li>
         </ul>
-        <div class="slider"><span class="slider__control slider__control_active"></span><span class="slider__control"></span><span class="slider__control"></span></div>
+        <div class="slider">
+          <input class="slider__control slider__control--active" type="radio" name="prices-slider" value="0" checked>
+          <input class="slider__control" type="radio" name="prices-slider" value="1">
+          <input class="slider__control" type="radio" name="prices-slider" value="2">
+        </div>
       </section>
       <section class="contact">
         <h2 class="visually-hidden">Контакты</h2>
         <p class="contact__lead">Остались вопросы? Свяжитесь с нами!</p>
         <address class="contact__address">
-          <p class="contact__action">Звоните:</p>
-          <p class="contact__detail">+7 (812) 555-66-66</p>
-          <p class="contact__action">Пишите:</p>
-          <p class="contact__detail">mail@htmlacademy.ru</p>
-          <p class="contact__action">Приезжайте в гости:</p>
-          <p class="contact__detail">ул. Большая Конюшенная, 19/8</p>
+          <div class="contact__block">
+            <p class="contact__action">Звоните:</p>
+            <p class="contact__detail">+7 (812) 555-66-66</p>
+          </div>
+          <div class="contact__block">
+            <p class="contact__action">Пишите:</p>
+            <p class="contact__detail">mail@htmlacademy.ru</p>
+          </div>
+          <div class="contact__block">
+            <p class="contact__action">Приезжайте в гости:</p>
+            <p class="contact__detail">ул. Большая Конюшенная, 19/8</p>
+          </div>
         </address>
         <iframe src="https://yandex.ru/map-widget/v1/-/CBBfmSdwWA" width="320" height="200"></iframe>
       </section>
