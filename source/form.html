@@ -8,7 +8,7 @@
   <body class="page">
     <header class="header"><a href="index.html"><img class="logo" src="http://placehold.it/75x22" width="75" height="22" alt="Пинк"></a>
       <nav class="navigation">
-        <button class="navigation__button navigation__button--burger" type="button" name="nav-control"></button>
+        <button class="navigation__button navigation__button--burger" type="button">Открыть/закрыть меню</button>
         <ul class="navigation__list">
           <li class="navigation__item"><a href="index.html">Главная</a></li>
           <li class="navigation__item"><a href="photo.html">Фотографии</a></li>
@@ -18,30 +18,27 @@
       </nav>
     </header>
     <main class="main">
-      <h1 class="visually-hidden">Регистрация на конкурс</h1>
       <section class="intro">
-        <p class="intro__tagline">Конкурс на самое безбашенное путешествие с Пинк</p>
+        <h1 class="intro__tagline">Конкурс на самое безбашенное путешествие с Пинк</h1>
         <p class="intro__description">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
       </section>
       <form class="form" action="https://echo.htmlacademy.ru" method="post">
         <div class="form__block">
           <fieldset class="form__name">
-            <legend class="visually-hidden">Фамилия, имя, отчество
-              <ul class="form__options-list">
-                <li class="form__options-item">
-                  <label class="form__label">Фамилия:</label>
-                  <input class="form__input" type="text" placeholder="Укажите фамилию *" required>
-                </li>
-                <li class="form__options-item">
-                  <label class="form__label">Имя:</label>
-                  <input class="form__input" type="text" placeholder="Введите ваше имя *" required>
-                </li>
-                <li class="form__options-item">
-                  <label class="form__label">Отчество:</label>
-                  <input class="form__input" type="text" placeholder="Ну и отчество тоже">
-                </li>
-              </ul>
-            </legend>
+            <ul class="form__options-list">
+              <li class="form__options-item">
+                <label class="form__label">Фамилия:</label>
+                <input class="form__input" type="text" placeholder="Укажите фамилию *" required>
+              </li>
+              <li class="form__options-item">
+                <label class="form__label">Имя:</label>
+                <input class="form__input" type="text" placeholder="Введите ваше имя *" required>
+              </li>
+              <li class="form__options-item">
+                <label class="form__label">Отчество:</label>
+                <input class="form__input" type="text" placeholder="Ну и отчество тоже">
+              </li>
+            </ul>
           </fieldset>
         </div>
         <div class="form__block">
@@ -77,12 +74,10 @@
         </div>
         <div class="form__block">
           <fieldset class="form__contact">
-            <legend class="visually-hidden">Контактные данные
-              <label class="form__label">Номер телефона</label>
-              <input class="form__input" type="tel" placeholder="Номер, пожалуйста">
-              <label class="form__label">адрес почты</label>
-              <input class="form__input" type="email" placeholder="Введите почту *" required>
-            </legend>
+            <label class="form__label">Номер телефона</label>
+            <input class="form__input" type="tel" placeholder="Номер, пожалуйста">
+            <label class="form__label">адрес почты</label>
+            <input class="form__input" type="email" placeholder="Введите почту *" required>
           </fieldset>
         </div>
         <div class="form__block">
@@ -109,7 +104,7 @@
           <textarea class="form__feedback" name="feedback" id="feedback" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
         </div>
         <button class="button form__submit-button" type="submit">Отправить форму</button>
-        <p class="form__instruction"><span class="form__instruction_accent">*</span>— обязательные поля</p>
+        <p class="form__instruction"><span class="form__instruction--accent">*</span>— обязательные поля</p>
       </form>
     </main>
     <footer class="footer"><img class="footer__logo" src="http://placehold.it/147x40" width="147" height="40" alt="Пинк">
