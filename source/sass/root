@@ -1,1 +1,5 @@
-$page-default-colour: #ffffff;
+$bg-default-color: #ffffff;
+$bg-accent-color: #f2f2f2;
+$main-accent-color: #d22856;
+$text-default-color: #283645;
+$text-contrast-color: #ffffff;
