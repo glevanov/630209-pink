@@ -1,0 +1,115 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title HTML Academy: Пинк
+  body.page
+    header.header
+      img.logo(src="http://placehold.it/75x22" width="75" height="22" alt="Пинк")
+      nav.navigation
+        button.navigation__button.navigation__button--burger(type="button") Открыть/закрыть меню
+        ul.navigation__list
+          li.navigation__item Главная
+          li.navigation__item
+            a(href="photo.html") Фотографии
+          li.navigation__item
+            a(href="form.html") Конкурс
+          li.navigation__item
+            a(href="https://htmlacademy.ru/intensive/adaptive" target="_blank") HTML Academy
+
+    main.main
+      h1.visually-hidden Пинк
+      section.get-app
+        h2.visually-hidden Ссылки на приложение
+        div.get-app__image
+        div.get-app__content
+          a.button.get-app__download(href="#") Скачать приложение
+          ul.get-app__list
+            li.get-app__list-item
+              a(href="#")
+                img.get-app__icon.get-app__icon--apple(src="http://placehold.it/47x56" width="47" height="56" alt="Apple")
+            li.get-app__list-item
+              a(href="#")
+                img.get-app__icon.get-app__icon--android(src="http://placehold.it/43x47" width="43" height="47" alt="Android")
+            li.get-app__list-item
+              a(href="#")
+                img.get-app__icon.get-app__icon--windows(src="http://placehold.it/44x41" width="44" height="41" alt="Windows")
+          p.get-app__description Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+
+      section.description
+        h2.visually-hidden Описание услуг
+        div.description__intro
+          p.description__tagline Устали от серости мегаполиса?
+          p.description__tagline Нам есть, что вам предложить!
+        div.description__content
+          p.description__lead Поднимает настроение
+          p.description__text Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+          p.description__lead Меняет мир вокруг
+          p.description__text Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+          p.description__lead Заводит новых друзей
+          p.description__text Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+          div.description__image
+
+      section.reviews
+        h2.visually-hidden Отзывы
+        ul.reviews__list
+          li.reviews__item
+            p.reviews__name Николай Петров
+            p.reviews__text «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+          li.reviews__item
+            p.reviews__name Николай Петров
+            p.reviews__text «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+          li.reviews__item
+            p.reviews__name Николай Петров
+            p.reviews__text «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+        div.slider
+          input.slider__control.slider__control--active(type="radio" name="reviews-slider" value="0" checked)
+          input.slider__control(type="radio" name="reviews-slider" value="1")
+          input.slider__control(type="radio" name="reviews-slider" value="2")
+
+      section.prices
+        h2.visually-hidden Тарифы
+        ul.prices__slide-list
+          li.prices__slide-item
+            div.prices__heading
+              p.prices__tariff База
+              p.prices__price 1,99 USD
+            p.prices__option.prices__option--true Розовый фильтр
+            p.prices__option.prices__option--false Смайлики
+            p.prices__option.prices__option--false Комментарии
+          li.prices__slide-item
+            div.prices__heading
+              p.prices__tariff Стандарт
+              p.prices__price 3,99 USD
+            p.prices__option.prices__option--true Розовый фильтр
+            p.prices__option.prices__option--true Смайлики
+            p.prices__option.prices__option--false Комментарии
+          li.prices__slide-item
+            div.prices__heading
+              p.prices__tariff Анлим
+              p.prices__price 9,99 USD
+            p.prices__option.prices__option--true Розовый фильтр
+            p.prices__option.prices__option--true Смайлики
+            p.prices__option.prices__option--true Комментарии
+        div.slider
+          input.slider__control.slider__control--active(type="radio" name="prices-slider" value="0" checked)
+          input.slider__control(type="radio" name="prices-slider" value="1")
+          input.slider__control(type="radio" name="prices-slider" value="2")
+
+      section.contact
+        h2.visually-hidden Контакты
+        p.contact__lead Остались вопросы? Свяжитесь с нами!
+        address.contact__address
+          div.contact__block
+            p.contact__action Звоните:
+            p.contact__detail +7 (812) 555-66-66
+          div.contact__block
+            p.contact__action Пишите:
+            p.contact__detail mail@htmlacademy.ru
+          div.contact__block
+            p.contact__action Приезжайте в гости:
+            p.contact__detail ул. Большая Конюшенная, 19/8
+        iframe(src="https://yandex.ru/map-widget/v1/-/CBBfmSdwWA" width="320" height="200")
+|
+|

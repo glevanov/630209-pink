@@ -1,0 +1,133 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title HTML Academy: Пинк
+  body.page
+    header.header
+      a(href="index.html")
+        img.logo(src="http://placehold.it/75x22" width="75" height="22" alt="Пинк")
+      nav.navigation
+        button.navigation__button.navigation__button--burger(type="button") Открыть/закрыть меню
+        ul.navigation__list
+          li.navigation__item
+            a(href="index.html") Главная
+          li.navigation__item Фотографии
+          li.navigation__item
+            a(href="form.html") Конкурс
+          li.navigation__item
+            a(href="https://htmlacademy.ru/intensive/adaptive" target="_blank") HTML Academy
+
+    main.main
+      section.intro
+        h1.intro__tagline Фотографии пользователей
+        p.intro__description Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?
+
+    ul.post
+      li.post__item
+        article
+          span.post__panorama-title ПАНОРАМА ДНЯ
+          img.post__picture.post__picture--panorama(src="http://placehold.it/320x137" width="320" height="137" alt="Фотография пользователя Анна")
+          section.post__body
+            h2.post__author Анна
+            p.post__time (5 минут назад)
+            p.post__text Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
+            div.likes
+              button.likes__button(type="button")
+              p.likes__counter Нравится: 215
+      li.post__item
+        article
+          img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Левон")
+          section.post__body
+            h2.post__author Левон
+            p.post__time (5 часов назад)
+            p.post__text Вчера он на луну летал, сегодня в руки к нам попал.
+            div.likes
+              button.likes__button(type="button")
+              p.likes__counter Нравится: 356
+      li.post__item
+        article
+          img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Антон")
+          section.post__body
+            h2.post__author Антон
+            p.post__time (12 часов назад)
+            p.post__text Соседи будут рады!
+            div.likes
+              button.likes__button(type="button")
+              p.likes__counter Нравится: 666
+      li.post__item
+        article
+          img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Борис")
+          section.post__body
+            h2.post__author Борис
+            p.post__time (20 часов назад)
+            p.post__text Здесь могла быть ваша цитата о высоком и вечном.
+            div.likes
+              button.likes__button(type="button")
+              p.likes__counter Нравится: 215
+      li.post__item
+        article
+          img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Сергей")
+          section.post__body
+            h2.post__author Сергей
+            p.post__time (25 часов назад)
+            p.post__text Самая кубанская в мире!
+            div.likes
+              button.likes__button(type="button")
+              p.likes__counter Нравится: 4
+      li.post__item
+        article
+          img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Максим")
+          section.post__body
+            h2.post__author Максим
+            p.post__time (40 часов назад)
+            p.post__text Где снег-то?
+            div.likes
+              button.likes__button(type="button")
+              p.likes__counter Нравится: 150
+      li.post__item
+        article
+          img.post__picture(src="http://placehold.it/280x180" width="280" height="180" alt="Фотография пользователя Надежда")
+          section.post__body
+            h2.post__author Надежда
+            p.post__time (45 часов назад)
+            p.post__text Всем GM и взаимные лайки!
+            div.likes
+              button.likes__button(type="button")
+              p.likes__counter Нравится: 2560
+
+      section.upload
+        h2.visually-hidden Форма загрузки фотографии
+        p.upload__tagline Затмите их всех! Выкладывайте все, что накопилось в телефоне!
+        form.upload__form(action="https://echo.htmlacademy.ru" method="post")
+          img.upload__preview(src="http://placehold.it/280x374" width="280" height="374" alt="Ваша фотография")
+          div.upload__controls
+            button.upload__control.upload__control--crop(type="button")
+            button.upload__control.upload__control--fill(type="button")
+            button.upload__control.upload__control--contrast(type="button")
+          input.upload__slider(type="range")
+          div.upload__buttons-wrap
+            button.button.upload__button.upload__button--submit(type="submit") Запостить
+            button.button.upload__button.upload__button--reset(type="reset") Отмена
+
+    footer.footer
+      img.footer__logo(src="http://placehold.it/147x40" width="147" height="40" alt="Пинк")
+
+      ul.social
+        li.social__item
+          a.social__link(href="#")
+            img.social__icon(src="http://placehold.it/19x14" width="19" height="14" alt="Twitter")
+        li.social__item
+          a.social__link(href="#")
+            img.social__icon(src="http://placehold.it/9x18" width="9" height="18" alt="Facebook")
+        li.social__item
+          a.social__link(href="#")
+            img.social__icon(src="http://placehold.it/15x13" width="15" height="13" alt="YouTube")
+
+      div.copyright
+        p.copyright__text Разработано
+        a(href="https://htmlacademy.ru/intensive/adaptive" target="_blank")
+          img.copyright__icon(src="http://placehold.it/27x34" width="27" height="34" alt="HTML Academy")
+|
+|
