@@ -1,0 +1,15 @@
+.navigation {
+  background-color: $text-default-color;
+  color: $text-contrast-color;
+}
+
+.navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__item a {
+  color: inherit;
+  text-decoration: none;
+}
