@@ -1,0 +1,18 @@
+// Цвета
+$bg-default-color: #ffffff;
+$bg-accent-color: #f2f2f2;
+$main-accent-color: #d22856;
+$text-default-color: #283645;
+$text-contrast-color: #ffffff;
+
+// Миксины
+@mixin list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin link-reset {
+  color: inherit;
+  text-decoration: none;
+}
