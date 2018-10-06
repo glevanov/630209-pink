@@ -1,0 +1,35 @@
+.prices__slide-list {
+  @include list-reset;
+}
+
+.prices__heading {
+  background-color: $text-default-color;
+  color: $text-contrast-color;
+  border-left: 2px solid #e5e5e5;
+  border-right: 2px solid #e5e5e5;
+}
+
+.prices__tariff {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.prices__price {
+  margin: 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.prices__option {
+  margin: 0;
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  border-left: 2px solid #e5e5e5;
+  border-right: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+}
