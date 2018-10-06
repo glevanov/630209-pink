@@ -1,3 +1,7 @@
+.prices {
+  background-color: $bg-accent-color;
+}
+
 .prices__slide-list {
   @include list-reset;
 }
@@ -27,6 +31,7 @@
 .prices__option {
   margin: 0;
   color: $text-default-color;
+  background-color: $bg-default-color;
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
