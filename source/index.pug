@@ -7,10 +7,11 @@ html(lang="ru")
     link(rel="stylesheet" type="text/css" href="css/style.css")
   body.page
     header.header
-      img.logo(src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Пинк")
       nav.navigation
-        button.navigation__button.navigation__button--burger(type="button") Открыть/закрыть меню
         ul.navigation__list
+          li.navigation__item
+            img.logo(src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Пинк")
+            button.navigation__button.navigation__button--close(type="button") Открыть/закрыть меню
           li.navigation__item Главная
           li.navigation__item
             a(href="photo.html") Фотографии

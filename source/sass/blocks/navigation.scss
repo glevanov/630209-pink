@@ -4,12 +4,36 @@
 }
 
 .navigation__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  @include list-reset;
+}
+
+.navigation__item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 .navigation__item a {
-  color: inherit;
-  text-decoration: none;
+  @include link-reset;
+}
+
+.navigation__button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: transparent;
+}
+
+.navigation__button--burger {
+  width: 50px;
+  height: 24px;
+  background-image: url("../../img/icon-menu-burger.svg");
+  background-repeat: no-repeat;
+}
+
+.navigation__button--close {
+  width: 24px;
+  height: 23px;
+  background-image: url("../../img/icon-menu-cross.svg");
+  background-repeat: no-repeat;
 }
