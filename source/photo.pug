@@ -7,18 +7,18 @@ html(lang="ru")
     link(rel="stylesheet" type="text/css" href="css/style.css")
   body.page
     header.header
-      a(href="index.html")
-        img.logo(src="http://placehold.it/75x22" width="75" height="22" alt="Пинк")
       nav.navigation
-        button.navigation__button.navigation__button--burger(type="button") Открыть/закрыть меню
         ul.navigation__list
           li.navigation__item
-            a(href="index.html") Главная
+            a.logo(href="index.html") Пинк
+            button.navigation__button.navigation__button--close(type="button") Открыть/закрыть меню
+          li.navigation__item
+            a.navigation__link(href="index.html") Главная
           li.navigation__item Фотографии
           li.navigation__item
-            a(href="form.html") Конкурс
+            a.navigation__link(href="form.html") Конкурс
           li.navigation__item
-            a(href="https://htmlacademy.ru/intensive/adaptive" target="_blank") HTML Academy
+            a.navigation__link(href="https://htmlacademy.ru/intensive/adaptive" target="_blank") HTML Academy
 
     main.main
       section.intro
