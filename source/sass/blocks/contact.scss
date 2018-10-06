@@ -1,0 +1,26 @@
+.contact {
+  text-align: center;
+}
+
+.contact__lead {
+  margin: 0;
+  color: $text-default-color;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.contact__action {
+  margin: 0;
+  color: $text-default-color;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contact__detail {
+  margin: 0;
+  color: $main-accent-color;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 300;
+}
