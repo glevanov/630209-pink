@@ -1,0 +1,83 @@
+.form__name,
+.form__options,
+.form__contact,
+.form__app {
+  @include fieldset-reset;
+}
+
+.form__block:nth-of-type(2n+1) {
+  background-color: $bg-default-color;
+}
+
+.form__block:nth-of-type(2n) {
+  background-color: $bg-accent-color;
+}
+
+.form__options-list {
+  @include list-reset;
+}
+
+.form__app-list {
+  @include list-reset;
+}
+
+.form__label {
+  color: $main-accent-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.form__input {
+  color: $text-default-color;
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  border: 2px solid #e5e5e5;
+  border-radius: 2px;
+  padding: 0;
+
+  &::placeholder {
+    color: $text-default-color;
+  }
+}
+
+.form__legend {
+  color: $main-accent-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0;
+}
+
+.form__checkbox-label {
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.form__radio-label {
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.form__feedback {
+  font: inherit;
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  border: 2px solid #e5e5e5;
+  border-radius: 2px;
+  resize: none;
+
+  &::placeholder {
+    color: $text-default-color;
+  }
+}

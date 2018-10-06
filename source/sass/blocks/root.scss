@@ -16,3 +16,9 @@ $text-contrast-color: #ffffff;
   color: inherit;
   text-decoration: none;
 }
+
+@mixin fieldset-reset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
