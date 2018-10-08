@@ -1,0 +1,53 @@
+.upload__tagline {
+  margin: 0;
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.upload__form {
+  background-color: $bg-accent-color;
+}
+
+.upload__control {
+  background-color: transparent;
+}
+
+.upload__control--crop {
+  width: 48px;
+  height: 48px;
+  background-image: url("../../img/icon-editor-crop.svg");
+  background-repeat: no-repeat;
+}
+
+.upload__control--fill {
+  width: 48px;
+  height: 48px;
+  background-image: url("../../img/icon-editor-fill.svg");
+  background-repeat: no-repeat;
+}
+
+.upload__control--contrast {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../img/icon-editor-contrast.svg");
+  background-repeat: no-repeat;
+}
+
+.upload__button {
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.upload__button--reset {
+  color: #dddfe0;
+}
+
+.upload__button--submit {
+  color: $main-accent-color;
+}
