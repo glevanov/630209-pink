@@ -1,5 +1,10 @@
+.upload {
+  background-color: $bg-accent-color;
+}
+
 .upload__tagline {
   margin: 0;
+  background-color: $bg-default-color;
   color: $text-default-color;
   font-weight: 400;
   font-size: 14px;
@@ -7,7 +12,15 @@
 }
 
 .upload__form {
-  background-color: $bg-accent-color;
+  padding-top: 20px;
+}
+
+.upload__preview {
+  padding-bottom: 42px;
+}
+
+.upload__controls {
+  padding-bottom: 33px;
 }
 
 .upload__control {
@@ -35,6 +48,16 @@
   background-repeat: no-repeat;
 }
 
+.upload__slider {
+  padding-bottom: 28px;
+}
+
+.upload__buttons-wrap {
+  border-top: 1px solid #dddfe0;
+  padding-top: 38px;
+  padding-bottom: 41px;
+}
+
 .upload__button {
   background-color: transparent;
   font-weight: 700;
@@ -42,6 +65,9 @@
   line-height: 18px;
   border-width: 3px;
   border-style: solid;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .upload__button--reset {
