@@ -81,3 +81,24 @@
     color: $text-default-color;
   }
 }
+
+.form__submit-button {
+  color: #ffffff;
+  background-color: #2aab6d;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.form__instruction {
+  margin: 0;
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.form__instruction--accent {
+  color: $main-accent-color;
+}
