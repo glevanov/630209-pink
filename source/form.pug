@@ -28,14 +28,14 @@ html(lang="ru")
       form.form(action="https://echo.htmlacademy.ru" method="post")
         div.form__block
           fieldset.form__name
-            ul.form__options-list
-              li.form__options-item
+            ul.form__name-list
+              li.form__name-item
                 label.form__label Фамилия:
                 input.form__input(type="text" placeholder="Укажите фамилию *" required)
-              li.form__options-item
+              li.form__name-item
                 label.form__label Имя:
                 input.form__input(type="text" placeholder="Введите ваше имя *" required)
-              li.form__options-item
+              li.form__name-item
                 label.form__label Отчество:
                 input.form__input(type="text" placeholder="Ну и отчество тоже")
         div.form__block
@@ -62,10 +62,13 @@ html(lang="ru")
                 label.form__checkbox-label(for="hotel") Разгромил отель
         div.form__block
           fieldset.form__contact
-            label.form__label Номер телефона
-            input.form__input(type="tel" placeholder="Номер, пожалуйста")
-            label.form__label адрес почты
-            input.form__input(type="email" placeholder="Введите почту *" required)
+            ul.form__contact-list
+              li.form__contact-item
+                label.form__label Номер телефона
+                input.form__input(type="tel" placeholder="Номер, пожалуйста")
+              li.form__contact-item
+                label.form__label адрес почты
+                input.form__input(type="email" placeholder="Введите почту *" required)
 
         div.form__block
           fieldset.form__app

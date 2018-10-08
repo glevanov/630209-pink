@@ -21,6 +21,7 @@
 
 .upload__controls {
   padding-bottom: 33px;
+  display: flex;
 }
 
 .upload__control {
@@ -48,11 +49,8 @@
   background-repeat: no-repeat;
 }
 
-.upload__slider {
-  padding-bottom: 28px;
-}
-
 .upload__buttons-wrap {
+  margin-top: 28px;
   border-top: 1px solid #dddfe0;
   padding-top: 38px;
   padding-bottom: 41px;

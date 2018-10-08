@@ -16,6 +16,11 @@
   text-align: center;
 }
 
+.navigation__item:first-of-type {
+  display: flex;
+  justify-content: space-between;
+}
+
 .navigation__link {
   @include link-reset;
 }

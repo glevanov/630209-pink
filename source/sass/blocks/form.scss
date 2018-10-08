@@ -13,8 +13,31 @@
   background-color: $bg-accent-color;
 }
 
+.form__block {
+  padding-top: 30px;
+  padding-bottom: 42px;
+}
+
+.form__name-list {
+  @include list-reset;
+}
+
+.form__name-item {
+  display: flex;
+  flex-direction: column;
+}
+
 .form__options-list {
   @include list-reset;
+}
+
+.form__contact-list {
+  @include list-reset;
+}
+
+.form__contact-item {
+  display: flex;
+  flex-direction: column;
 }
 
 .form__app-list {
@@ -88,6 +111,9 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
+
+  padding-top: 16.5px;
+  padding-bottom: 16.5px;
 }
 
 .form__instruction {
