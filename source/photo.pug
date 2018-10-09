@@ -10,7 +10,8 @@ html(lang="ru")
       nav.navigation
         ul.navigation__list
           li.navigation__item
-            a.logo(href="index.html") Пинк
+            a(href="index.html")
+              img(src="../img/logo-pink-white-mobile.svg" alt="Пинк" height="22" width="75").logo
             button.navigation__button.navigation__button--close(type="button") Открыть/закрыть меню
           li.navigation__item
             a.navigation__link(href="index.html") Главная
@@ -113,7 +114,8 @@ html(lang="ru")
             button.button.upload__button.upload__button--reset(type="reset") Отмена
 
     footer.footer
-      img.footer__logo(src="img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Пинк")
+      a(href="index.html")
+        img.footer__logo(src="img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Пинк")
 
       ul.social
         li.social__item
