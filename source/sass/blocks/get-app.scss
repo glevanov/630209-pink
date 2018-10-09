@@ -2,8 +2,8 @@
   min-height: 462px;
 
   background-color: #1f2b37;
-  background-image: url("../../img/iphone-hand-mobile@1x.png"),
-    url("../../img/bg-back-mobile@1x.jpg");
+  background-image: url("../img/iphone-hand-mobile@1x.png"),
+    url("../img/bg-back-mobile@1x.jpg");
   background-position: bottom left;
   background-repeat: no-repeat;
 }
@@ -50,21 +50,21 @@
 .get-app__icon--apple {
   width: 47px;
   height: 56px;
-  background-image: url("../../img/logo-apple.svg");
+  background-image: url("../img/logo-apple.svg");
   background-repeat: no-repeat;
 }
 
 .get-app__icon--android {
   width: 43px;
   height: 47px;
-  background-image: url("../../img/logo-android.svg");
+  background-image: url("../img/logo-android.svg");
   background-repeat: no-repeat;
 }
 
 .get-app__icon--windows {
   width: 44px;
   height: 41px;
-  background-image: url("../../img/logo-microsoft.svg");
+  background-image: url("../img/logo-microsoft.svg");
   background-repeat: no-repeat;
 }
 
