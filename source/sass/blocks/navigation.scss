@@ -30,18 +30,18 @@
   border: none;
   padding: 0;
   color: transparent;
-}
 
-.navigation__button--burger {
-  width: 50px;
-  height: 24px;
-  background-image: url("../img/icon-menu-burger.svg");
-  background-repeat: no-repeat;
-}
+  &--burger {
+    width: 50px;
+    height: 24px;
+    background-image: url("../img/icon-menu-burger.svg");
+    background-repeat: no-repeat;
+  }
 
-.navigation__button--close {
-  width: 24px;
-  height: 23px;
-  background-image: url("../img/icon-menu-cross.svg");
-  background-repeat: no-repeat;
+  &--close {
+    width: 24px;
+    height: 23px;
+    background-image: url("../img/icon-menu-cross.svg");
+    background-repeat: no-repeat;
+  }
 }

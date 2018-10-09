@@ -26,27 +26,27 @@
 
 .upload__control {
   background-color: transparent;
-}
 
-.upload__control--crop {
-  width: 48px;
-  height: 48px;
-  background-image: url("../img/icon-editor-crop.svg");
-  background-repeat: no-repeat;
-}
+  &--crop {
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/icon-editor-crop.svg");
+    background-repeat: no-repeat;
+  }
 
-.upload__control--fill {
-  width: 48px;
-  height: 48px;
-  background-image: url("../img/icon-editor-fill.svg");
-  background-repeat: no-repeat;
-}
+  &--fill {
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/icon-editor-fill.svg");
+    background-repeat: no-repeat;
+  }
 
-.upload__control--contrast {
-  width: 32px;
-  height: 32px;
-  background-image: url("../img/icon-editor-contrast.svg");
-  background-repeat: no-repeat;
+  &--contrast {
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/icon-editor-contrast.svg");
+    background-repeat: no-repeat;
+  }
 }
 
 .upload__buttons-wrap {
@@ -66,12 +66,12 @@
 
   padding-top: 10px;
   padding-bottom: 10px;
-}
 
-.upload__button--reset {
-  color: #dddfe0;
-}
+  &--reset {
+    color: #dddfe0;
+  }
 
-.upload__button--submit {
-  color: $main-accent-color;
+  &--submit {
+    color: $main-accent-color;
+  }
 }

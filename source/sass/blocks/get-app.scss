@@ -45,27 +45,27 @@
   @include link-reset;
   display: block;
   color: transparent;
-}
 
-.get-app__icon--apple {
-  width: 47px;
-  height: 56px;
-  background-image: url("../img/logo-apple.svg");
-  background-repeat: no-repeat;
-}
+  &--apple {
+    width: 47px;
+    height: 56px;
+    background-image: url("../img/logo-apple.svg");
+    background-repeat: no-repeat;
+  }
 
-.get-app__icon--android {
-  width: 43px;
-  height: 47px;
-  background-image: url("../img/logo-android.svg");
-  background-repeat: no-repeat;
-}
+  &--android {
+    width: 43px;
+    height: 47px;
+    background-image: url("../img/logo-android.svg");
+    background-repeat: no-repeat;
+  }
 
-.get-app__icon--windows {
-  width: 44px;
-  height: 41px;
-  background-image: url("../img/logo-microsoft.svg");
-  background-repeat: no-repeat;
+  &--windows {
+    width: 44px;
+    height: 41px;
+    background-image: url("../img/logo-microsoft.svg");
+    background-repeat: no-repeat;
+  }
 }
 
 .get-app__description {

@@ -44,29 +44,6 @@
   @include list-reset;
 }
 
-.form__label {
-  color: $main-accent-color;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-}
-
-.form__input {
-  color: $text-default-color;
-  font: inherit;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-
-  border: 2px solid #e5e5e5;
-  border-radius: 2px;
-  padding: 0;
-
-  &::placeholder {
-    color: $text-default-color;
-  }
-}
-
 .form__legend {
   color: $main-accent-color;
   font-weight: 400;
@@ -123,8 +100,8 @@
   font-size: 14px;
   line-height: 30px;
   text-transform: uppercase;
-}
 
-.form__instruction--accent {
-  color: $main-accent-color;
+  &--accent {
+    color: $main-accent-color;
+  }
 }
