@@ -73,7 +73,7 @@
   font-size: 18px;
   line-height: 30px;
 
-  border: 2px solid #e5e5e5;
+  border: 2px solid $border-default-color;
   border-radius: 2px;
   resize: none;
 
@@ -84,7 +84,7 @@
 
 .form__submit-button {
   color: #ffffff;
-  background-color: #2aab6d;
+  background-color: $button-submit-color;
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;

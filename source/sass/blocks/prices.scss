@@ -11,8 +11,8 @@
 .prices__heading {
   background-color: $text-default-color;
   color: $text-contrast-color;
-  border-left: 2px solid #e5e5e5;
-  border-right: 2px solid #e5e5e5;
+  border-left: 2px solid $border-default-color;
+  border-right: 2px solid $border-default-color;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
-  border-left: 2px solid #e5e5e5;
-  border-right: 2px solid #e5e5e5;
-  border-bottom: 2px solid #e5e5e5;
+  border-left: 2px solid $border-default-color;
+  border-right: 2px solid $border-default-color;
+  border-bottom: 2px solid $border-default-color;
 }
