@@ -5,17 +5,14 @@
   @include fieldset-reset;
 }
 
-.form__block:nth-of-type(2n+1) {
-  background-color: $bg-default-color;
-}
-
-.form__block:nth-of-type(2n) {
-  background-color: $bg-accent-color;
-}
-
 .form__block {
   padding-top: 30px;
   padding-bottom: 42px;
+  background-color: $bg-default-color;
+
+  &--accent {
+    background-color: $bg-accent-color;
+  }
 }
 
 .form__name-list {
