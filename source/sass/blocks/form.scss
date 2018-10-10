@@ -19,22 +19,12 @@
   @include list-reset;
 }
 
-.form__name-item {
-  display: flex;
-  flex-direction: column;
-}
-
 .form__options-list {
   @include list-reset;
 }
 
 .form__contact-list {
   @include list-reset;
-}
-
-.form__contact-item {
-  display: flex;
-  flex-direction: column;
 }
 
 .form__app-list {
