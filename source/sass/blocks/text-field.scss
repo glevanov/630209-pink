@@ -1,0 +1,27 @@
+.text-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-field__label {
+  color: $main-accent-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.text-field__input {
+  color: $text-default-color;
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  border: 2px solid $border-default-color;
+  border-radius: 2px;
+  padding: 0;
+
+  &::placeholder {
+    color: $text-default-color;
+  }
+}

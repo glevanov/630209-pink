@@ -1,0 +1,24 @@
+$bg-default-color: #ffffff;
+$bg-accent-color: #f2f2f2;
+$main-accent-color: #d22856;
+$text-default-color: #283645;
+$text-contrast-color: #ffffff;
+$submit-default-color: #2aab6d;
+$border-default-color: #e5e5e5;
+
+@mixin list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin link-reset {
+  color: inherit;
+  text-decoration: none;
+}
+
+@mixin fieldset-reset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}

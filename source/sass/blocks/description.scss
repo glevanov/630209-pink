@@ -1,0 +1,44 @@
+.description {
+  padding-top: 40px;
+}
+
+.description__intro {
+  background-color: $bg-default-color;
+  text-align: center;
+}
+
+.description__tagline {
+  margin: 0;
+  font-weight: 300;
+  font-size: 24px;
+  color: $text-default-color;
+}
+
+.description__lead {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.description__text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: $text-default-color;
+}
+
+.description__content {
+  background-color: $bg-accent-color;
+  text-align: center;
+}
+
+.description__image {
+  height: 320px;
+  background-color: $bg-accent-color;
+  background-image: url("../img/iphone-screen-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+}

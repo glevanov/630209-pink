@@ -4,19 +4,21 @@ html(lang="ru")
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     title HTML Academy: Пинк
+    link(rel="stylesheet" type="text/css" href="css/style.css")
   body.page
     header.header
-      img.logo(src="http://placehold.it/75x22" width="75" height="22" alt="Пинк")
       nav.navigation
-        button.navigation__button.navigation__button--burger(type="button") Открыть/закрыть меню
         ul.navigation__list
+          li.navigation__item
+            img(src="img/logo-pink-white-mobile.svg" alt="Пинк" height="22" width="75").logo
+            button.navigation__button.navigation__button--close(type="button") Открыть/закрыть меню
           li.navigation__item Главная
           li.navigation__item
-            a(href="photo.html") Фотографии
+            a.navigation__link(href="photo.html") Фотографии
           li.navigation__item
-            a(href="form.html") Конкурс
+            a.navigation__link(href="form.html") Конкурс
           li.navigation__item
-            a(href="https://htmlacademy.ru/intensive/adaptive" target="_blank") HTML Academy
+            a.navigation__link(href="https://htmlacademy.ru/intensive/adaptive" target="_blank") HTML Academy
 
     main.main
       h1.visually-hidden Пинк
@@ -27,14 +29,11 @@ html(lang="ru")
           a.button.get-app__download(href="#") Скачать приложение
           ul.get-app__list
             li.get-app__list-item
-              a(href="#")
-                img.get-app__icon.get-app__icon--apple(src="http://placehold.it/47x56" width="47" height="56" alt="Apple")
+              a(href="#").get-app__icon.get-app__icon--apple Apple
             li.get-app__list-item
-              a(href="#")
-                img.get-app__icon.get-app__icon--android(src="http://placehold.it/43x47" width="43" height="47" alt="Android")
+              a(href="#").get-app__icon.get-app__icon--android Android
             li.get-app__list-item
-              a(href="#")
-                img.get-app__icon.get-app__icon--windows(src="http://placehold.it/44x41" width="44" height="41" alt="Windows")
+              a(href="#").get-app__icon.get-app__icon--windows Windows
           p.get-app__description Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
 
       section.description
@@ -110,6 +109,6 @@ html(lang="ru")
           div.contact__block
             p.contact__action Приезжайте в гости:
             p.contact__detail ул. Большая Конюшенная, 19/8
-        iframe(src="https://yandex.ru/map-widget/v1/-/CBBfmSdwWA" width="320" height="200")
+        iframe(src="https://yandex.ru/map-widget/v1/-/CBBfmSdwWA" width="100%" height="200" frameBorder="0")
 |
 |

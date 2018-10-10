@@ -1,0 +1,94 @@
+.form__name,
+.form__options,
+.form__contact,
+.form__app {
+  @include fieldset-reset;
+}
+
+.form__block {
+  padding-top: 30px;
+  padding-bottom: 42px;
+  background-color: $bg-default-color;
+
+  &--accent {
+    background-color: $bg-accent-color;
+  }
+}
+
+.form__name-list {
+  @include list-reset;
+}
+
+.form__options-list {
+  @include list-reset;
+}
+
+.form__contact-list {
+  @include list-reset;
+}
+
+.form__app-list {
+  @include list-reset;
+}
+
+.form__legend {
+  color: $main-accent-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0;
+}
+
+.form__checkbox-label {
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.form__radio-label {
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.form__feedback {
+  font: inherit;
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  border: 2px solid $border-default-color;
+  border-radius: 2px;
+  resize: none;
+
+  &::placeholder {
+    color: $text-default-color;
+  }
+}
+
+.form__submit-button {
+  color: #ffffff;
+  background-color: $submit-default-color;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+
+  padding-top: 16.5px;
+  padding-bottom: 16.5px;
+}
+
+.form__instruction {
+  margin: 0;
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  &--accent {
+    color: $main-accent-color;
+  }
+}

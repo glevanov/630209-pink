@@ -1,0 +1,77 @@
+.upload {
+  background-color: $bg-accent-color;
+}
+
+.upload__tagline {
+  margin: 0;
+  background-color: $bg-default-color;
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.upload__form {
+  padding-top: 20px;
+}
+
+.upload__preview {
+  padding-bottom: 42px;
+}
+
+.upload__controls {
+  padding-bottom: 33px;
+  display: flex;
+}
+
+.upload__control {
+  background-color: transparent;
+
+  &--crop {
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/icon-editor-crop.svg");
+    background-repeat: no-repeat;
+  }
+
+  &--fill {
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/icon-editor-fill.svg");
+    background-repeat: no-repeat;
+  }
+
+  &--contrast {
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/icon-editor-contrast.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.upload__buttons-wrap {
+  margin-top: 28px;
+  border-top: 1px solid #dddfe0;
+  padding-top: 38px;
+  padding-bottom: 41px;
+}
+
+.upload__button {
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  border-width: 3px;
+  border-style: solid;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &--reset {
+    color: #dddfe0;
+  }
+
+  &--submit {
+    color: $main-accent-color;
+  }
+}

@@ -1,0 +1,24 @@
+.intro__tagline {
+  display: block;
+  margin: 0;
+  min-height: 237px;
+
+  font-weight: 300;
+  font-size: 24px;
+  color: $text-contrast-color;
+
+  background-color: #2c3c4c;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+}
+
+.intro__description {
+  margin: 0;
+  color: $text-default-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
