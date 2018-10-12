@@ -1,3 +1,8 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
 .form__name,
 .form__options,
 .form__contact,
@@ -90,5 +95,58 @@
 
   &--accent {
     color: $main-accent-color;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .form__block {
+    &--name {
+      order: 1;
+    }
+
+    &--app {
+      order: 2;
+    }
+
+    &--contact {
+      order: 3;
+    }
+
+    &--options {
+      order: 4;
+    }
+
+    &--feedback {
+      order: 5;
+    }
+
+    &--submit {
+      display: flex;
+      order: 6;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .form__block {
+    &--name {
+      width: 50%;
+    }
+
+    &--app {
+      width: 50%;
+    }
+
+    &--contact,
+    &--options,
+    &--feedback,
+    &--submit {
+      width: 100%;
+    }
   }
 }
