@@ -1,4 +1,5 @@
 .get-app__image {
+  width: 100%;
   min-height: 462px;
 
   background-color: #1f2b37;
@@ -22,6 +23,10 @@
 
   padding-top: 28px;
   padding-bottom: 30px;
+}
+
+.get-app__tagline {
+  display: none;
 }
 
 .get-app__download {
@@ -71,4 +76,18 @@
 .get-app__description {
   margin: 0;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .get-app {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .get-app__tagline {
+    display: unset;
+    margin: 0;
+    font-weight: 300;
+    font-size: 40px;
+  }
 }
