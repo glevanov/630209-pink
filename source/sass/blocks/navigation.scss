@@ -45,3 +45,15 @@
     background-repeat: no-repeat;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .navigation__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navigation__button {
+    display: none;
+  }
+}
