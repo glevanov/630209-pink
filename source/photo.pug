@@ -27,10 +27,10 @@ html(lang="ru")
         p.intro__description Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?
 
     ul.post
-      li.post__item
+      li.post__item.post__item--panorama
         article
           span.post__panorama-title ПАНОРАМА ДНЯ
-          img.post__picture.post__picture--panorama(src="img/panorama-mobile@1x.jpg" width="320" height="137" alt="Фотография пользователя Анна")
+          img.post__picture(src="img/panorama-mobile@1x.jpg" width="320" height="137" alt="Фотография пользователя Анна")
           section.post__body
             h2.post__author Анна
             p.post__time (5 минут назад)
@@ -99,19 +99,19 @@ html(lang="ru")
               button.button.likes__button(type="button") Отметка "Нравится"
               p.likes__counter Нравится: 2560
 
-      section.upload
-        h2.visually-hidden Форма загрузки фотографии
-        p.upload__tagline Затмите их всех! Выкладывайте все, что накопилось в телефоне!
-        form.upload__form(action="https://echo.htmlacademy.ru" method="post")
-          img.upload__preview(src="img/photo-road-mobile@1x.jpg" width="280" height="374" alt="Ваша фотография")
-          div.upload__controls
-            button.button.upload__control.upload__control--crop.upload__control--active(type="button")
-            button.button.upload__control.upload__control--fill(type="button")
-            button.button.upload__control.upload__control--contrast(type="button")
-          input.upload__slider(type="range")
-          div.upload__buttons-wrap
-            button.button.upload__button.upload__button--submit(type="submit") Запостить
-            button.button.upload__button.upload__button--reset(type="reset") Отмена
+    section.upload
+      h2.visually-hidden Форма загрузки фотографии
+      p.upload__tagline Затмите их всех! Выкладывайте все, что накопилось в телефоне!
+      form.upload__form(action="https://echo.htmlacademy.ru" method="post")
+        img.upload__preview(src="img/photo-road-mobile@1x.jpg" width="280" height="374" alt="Ваша фотография")
+        div.upload__controls
+          button.button.upload__control.upload__control--crop.upload__control--active(type="button")
+          button.button.upload__control.upload__control--fill(type="button")
+          button.button.upload__control.upload__control--contrast(type="button")
+        input.upload__slider(type="range")
+        div.upload__buttons-wrap
+          button.button.upload__button.upload__button--submit(type="submit") Запостить
+          button.button.upload__button.upload__button--reset(type="reset") Отмена
 
     footer.footer
       a(href="index.html")

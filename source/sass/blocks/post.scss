@@ -37,3 +37,18 @@
   font-size: 14px;
   line-height: 24px;
 }
+
+@media (min-width: $tablet-width) {
+  .post {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .post__item {
+    width: 300px;
+
+    &--panorama {
+      width: 100%;
+    }
+  }
+}
