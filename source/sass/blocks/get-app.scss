@@ -29,25 +29,13 @@
   display: none;
 }
 
-.get-app__download {
-  @include link-reset;
-
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 18px;
-
-  border: 3px solid #ffffff;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .get-app__list {
-  @include list-reset;
+  @include reset-list;
   display: flex;
 }
 
 .get-app__icon {
-  @include link-reset;
+  @include reset-link;
   display: block;
   color: transparent;
 

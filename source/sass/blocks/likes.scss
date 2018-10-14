@@ -12,6 +12,8 @@
 }
 
 .likes__button {
+  @include reset-button;
+
   height: 13px;
   width: 14px;
   color: transparent;

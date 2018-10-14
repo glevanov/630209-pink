@@ -4,7 +4,7 @@
 }
 
 .navigation__list {
-  @include list-reset;
+  @include reset-list;
 }
 
 .navigation__item {
@@ -22,7 +22,7 @@
 }
 
 .navigation__link {
-  @include link-reset;
+  @include reset-link;
 }
 
 .navigation__button {

@@ -25,6 +25,8 @@
 }
 
 .upload__control {
+  @include reset-button;
+
   background-color: transparent;
 
   &--crop {
@@ -54,24 +56,4 @@
   border-top: 1px solid #dddfe0;
   padding-top: 38px;
   padding-bottom: 41px;
-}
-
-.upload__button {
-  background-color: transparent;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 18px;
-  border-width: 3px;
-  border-style: solid;
-
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  &--reset {
-    color: #dddfe0;
-  }
-
-  &--submit {
-    color: $main-accent-color;
-  }
 }

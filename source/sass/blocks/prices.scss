@@ -5,7 +5,7 @@
 }
 
 .prices__slide-list {
-  @include list-reset;
+  @include reset-list;
 
   display: flex;
   flex-direction: row;

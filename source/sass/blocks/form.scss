@@ -7,7 +7,7 @@
 .form__options,
 .form__contact,
 .form__app {
-  @include fieldset-reset;
+  @include reset-fieldset;
 }
 
 .form__block {
@@ -21,19 +21,19 @@
 }
 
 .form__name-list {
-  @include list-reset;
+  @include reset-list;
 }
 
 .form__options-list {
-  @include list-reset;
+  @include reset-list;
 }
 
 .form__contact-list {
-  @include list-reset;
+  @include reset-list;
 }
 
 .form__app-list {
-  @include list-reset;
+  @include reset-list;
 }
 
 .form__legend {
@@ -72,17 +72,6 @@
   &::placeholder {
     color: $text-default-color;
   }
-}
-
-.form__submit-button {
-  color: #ffffff;
-  background-color: $submit-default-color;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 30px;
-
-  padding-top: 16.5px;
-  padding-bottom: 16.5px;
 }
 
 .form__instruction {

@@ -41,7 +41,7 @@
 }
 
 .description__content {
-  @include list-reset;
+  @include reset-list;
 
   background-color: $bg-accent-color;
   text-align: center;
