@@ -1,6 +1,6 @@
 .get-app__image {
   width: 100%;
-  min-height: 462px;
+  height: 395px;
 
   background-color: #1f2b37;
   background-image: url("../img/iphone-hand-mobile@1x.png"),
@@ -32,6 +32,11 @@
 .get-app__list {
   @include reset-list;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 205px;
+  margin-top: 36px;
+  margin-bottom: 20px;
 }
 
 .get-app__icon {
@@ -62,7 +67,9 @@
 }
 
 .get-app__description {
+  display: block;
   margin: 0;
+  width: 240px;
   text-align: center;
 }
 
