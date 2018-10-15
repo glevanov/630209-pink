@@ -1,7 +1,3 @@
-.post {
-  @include reset-list;
-}
-
 .post__panorama-title {
   color: $text-contrast-color;
   background-color: $main-accent-color;
@@ -40,11 +36,6 @@
 
 @media (min-width: $tablet-width) {
   .post {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .post__item {
     width: 300px;
 
     &--panorama {
