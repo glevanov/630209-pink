@@ -80,9 +80,10 @@
   }
 
   .get-app__tagline {
-    display: unset;
+    display: block;
     margin: 0;
     font-weight: 300;
     font-size: 40px;
+    line-height: 48px;
   }
 }
