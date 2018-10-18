@@ -5,20 +5,30 @@ $text-default-color: #283645;
 $text-contrast-color: #ffffff;
 $submit-default-color: #2aab6d;
 $border-default-color: #e5e5e5;
+$mobile-width: 320px;
+$tablet-width: 660px;
+$desktop-width: 1200px;
 
-@mixin list-reset {
+@mixin reset-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-@mixin link-reset {
+@mixin reset-link {
   color: inherit;
   text-decoration: none;
 }
 
-@mixin fieldset-reset {
+@mixin reset-fieldset {
   border: none;
   margin: 0;
   padding: 0;
+}
+
+@mixin reset-button {
+  display: block;
+  border: 0;
+  padding: 0;
+  font: inherit;
 }

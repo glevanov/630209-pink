@@ -1,5 +1,8 @@
 .reviews__list {
-  @include list-reset;
+  @include reset-list;
+
+  display: flex;
+  flex-direction: row;
 }
 
 .reviews__item {
@@ -22,4 +25,10 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
+}
+
+@media (min-width: $desktop-width) {
+  .reviews .slider {
+    display: none;
+  }
 }

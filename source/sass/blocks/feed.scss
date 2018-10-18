@@ -1,0 +1,10 @@
+.feed {
+  @include reset-list;
+}
+
+@media (min-width: $tablet-width) {
+  .feed {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

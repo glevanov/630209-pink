@@ -1,5 +1,6 @@
 .get-app__image {
-  min-height: 462px;
+  width: 100%;
+  height: 395px;
 
   background-color: #1f2b37;
   background-image: url("../img/iphone-hand-mobile@1x.png"),
@@ -24,25 +25,22 @@
   padding-bottom: 30px;
 }
 
-.get-app__download {
-  @include link-reset;
-
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 18px;
-
-  border: 3px solid #ffffff;
-  padding-top: 15px;
-  padding-bottom: 15px;
+.get-app__tagline {
+  display: none;
 }
 
 .get-app__list {
-  @include list-reset;
+  @include reset-list;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 205px;
+  margin-top: 36px;
+  margin-bottom: 20px;
 }
 
 .get-app__icon {
-  @include link-reset;
+  @include reset-link;
   display: block;
   color: transparent;
 
@@ -69,6 +67,23 @@
 }
 
 .get-app__description {
+  display: block;
   margin: 0;
+  width: 240px;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .get-app {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .get-app__tagline {
+    display: block;
+    margin: 0;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+  }
 }

@@ -25,7 +25,8 @@
       <section class="get-app">
         <h2 class="visually-hidden">Ссылки на приложение</h2>
         <div class="get-app__image"></div>
-        <div class="get-app__content"><a class="button get-app__download" href="#">Скачать приложение</a>
+        <div class="get-app__content">
+          <p class="get-app__tagline">Взгляните на жизнь иначе!</p><a class="button button--download" href="#">Скачать приложение</a>
           <ul class="get-app__list">
             <li class="get-app__list-item"><a class="get-app__icon get-app__icon--apple" href="#">Apple</a></li>
             <li class="get-app__list-item"><a class="get-app__icon get-app__icon--android" href="#">Android</a></li>
@@ -40,14 +41,29 @@
           <p class="description__tagline">Устали от серости мегаполиса?</p>
           <p class="description__tagline">Нам есть, что вам предложить!</p>
         </div>
-        <div class="description__content">
-          <p class="description__lead">Поднимает настроение</p>
-          <p class="description__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-          <p class="description__lead">Меняет мир вокруг</p>
-          <p class="description__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-          <p class="description__lead">Заводит новых друзей</p>
-          <p class="description__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        <div class="description__wrap">
+          <ul class="description__content">
+            <li class="description__item">
+              <p class="description__lead">Поднимает настроение</p>
+              <p class="description__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            </li>
+            <li class="description__item">
+              <p class="description__lead">Меняет мир вокруг</p>
+              <p class="description__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </li>
+            <li class="description__item">
+              <p class="description__lead">Заводит новых друзей</p>
+              <p class="description__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+            </li>
+          </ul>
           <div class="description__image"></div>
+        </div>
+      </section>
+      <section class="effect">
+        <div class="effect__image"></div>
+        <div class="effect__content">
+          <h2 class="effect__tagline">Эффект на 24 часа!</h2>
+          <p class="effect__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p><a class="effect__link">Узнать больше об исследовании</a>
         </div>
       </section>
       <section class="reviews">
@@ -129,5 +145,15 @@
         <iframe src="https://yandex.ru/map-widget/v1/-/CBBfmSdwWA" width="100%" height="200" frameBorder="0"></iframe>
       </section>
     </main>
+    <footer class="footer footer--index"><a href="index.html"><img class="footer__logo" src="img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Пинк"></a>
+      <ul class="social">
+        <li class="social__item"><a class="social__link" href="#"><img class="social__icon" src="img/icon-twitter.svg" width="19" height="14" alt="Twitter"></a></li>
+        <li class="social__item"><a class="social__link" href="#"><img class="social__icon" src="img/icon-facebook.svg" width="9" height="18" alt="Facebook"></a></li>
+        <li class="social__item"><a class="social__link" href="#"><img class="social__icon" src="img/icon-youtube.svg" width="15" height="13" alt="YouTube"></a></li>
+      </ul>
+      <div class="copyright">
+        <p class="copyright__text">Разработано</p><a href="https://htmlacademy.ru/intensive/adaptive" target="_blank"><img class="copyright__icon" src="img/logo-htmlacademy.svg" width="27" height="34" alt="HTML Academy"></a>
+      </div>
+    </footer>
   </body>
 </html>

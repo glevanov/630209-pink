@@ -1,0 +1,53 @@
+.effect {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .effect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $bg-default-color;
+  }
+
+  .effect__image {
+    width: 238px;
+    height: 276px;
+    background-color: $main-accent-color;
+  }
+
+  .effect__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .effect__tagline {
+    margin: 0;
+    color: #000000;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .effect__text {
+    margin: 0;
+    color: $text-default-color;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .effect__link {
+    margin: 0;
+    color: $main-accent-color;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .effect {
+    background-color: $bg-accent-color;
+  }
+}

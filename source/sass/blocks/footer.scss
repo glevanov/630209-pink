@@ -2,4 +2,22 @@
   background-color: $bg-default-color;
   padding-top: 40px;
   padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &--index {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+
+    &--index {
+      display: flex;
+    }
+  }
 }
