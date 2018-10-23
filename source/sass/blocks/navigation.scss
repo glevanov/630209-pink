@@ -59,6 +59,13 @@
   }
 }
 
+@media (min-width: $tablet-width) {
+  .navigation__item:first-of-type {
+    align-items: flex-end;
+    padding-bottom: 45px;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .navigation__list {
     display: flex;
