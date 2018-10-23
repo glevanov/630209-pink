@@ -12,6 +12,17 @@
   align-items: center;
   width: 100%;
   background-color: $bg-accent-color;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid $bg-accent-color;
+    border-left: 100vw solid transparent;
+  }
 }
 
 .description__intro {
