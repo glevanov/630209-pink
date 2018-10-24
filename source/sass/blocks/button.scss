@@ -38,3 +38,11 @@
     border-radius: 7px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .button {
+    &--download {
+      width: 295px;
+    }
+  }
+}

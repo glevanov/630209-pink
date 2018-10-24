@@ -1,3 +1,7 @@
+.get-app {
+  background-color: $text-default-color;
+}
+
 .get-app__image {
   width: 100%;
   height: 395px;
@@ -10,7 +14,6 @@
 }
 
 .get-app__content {
-  background-color: $text-default-color;
   color: $text-contrast-color;
 
   font-weight: 300;
@@ -77,13 +80,44 @@
   .get-app {
     display: flex;
     flex-direction: row-reverse;
+    position: relative;
   }
 
   .get-app__tagline {
     display: block;
     margin: 0;
+    margin-bottom: 30px;
     font-weight: 300;
     font-size: 40px;
     line-height: 48px;
+    text-align: center;
+    width: 200px;
+  }
+
+  .get-app__content {
+    background-color: transparent;
+    z-index: 50;
+    position: absolute;
+    left: 20px;
+    top: 65px;
+    width: 300px;
+  }
+
+  .get-app__image {
+    width: 100vw;
+    min-height: 618px;
+    background-size: 469px 545px, cover;
+    background-position: bottom right 23px, center;
+  }
+
+  .get-app__list {
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+
+  .get-app__description {
+    font-size: 18px;
+    line-height: 24px;
+    width: 300px;
   }
 }
