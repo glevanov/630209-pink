@@ -11,14 +11,17 @@
   }
 
   .effect__image {
-    width: 238px;
-    height: 276px;
+    flex-grow: 1;
     background-color: $main-accent-color;
   }
 
   .effect__content {
     display: flex;
     flex-direction: column;
+    width: 300px;
+    margin-top: 95px;
+    margin-right: 30px;
+    padding-bottom: 30px;
   }
 
   .effect__tagline {
@@ -27,6 +30,8 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
+    width: 170px;
+    margin-bottom: 10px;
   }
 
   .effect__text {
@@ -35,6 +40,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    margin-bottom: 10px;
   }
 
   .effect__link {

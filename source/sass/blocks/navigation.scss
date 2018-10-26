@@ -67,13 +67,31 @@
 }
 
 @media (min-width: $desktop-width) {
+  .navigation {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
   .navigation__list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
   }
 
-  .navigation__button {
+  .navigation__item {
+    padding-top: 39px;
+    padding-bottom: 39px;
+  }
+
+  .navigation__item:first-of-type {
+    padding: 0;
+  }
+
+    .navigation__button {
     display: none;
   }
 
