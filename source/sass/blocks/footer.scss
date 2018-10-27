@@ -2,22 +2,51 @@
   background-color: $bg-default-color;
   padding-top: 40px;
   padding-bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 
   &--index {
     display: none;
   }
 }
 
+.footer__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.footer__logo {
+  margin-bottom: 35px;
+}
+
 @media (min-width: $tablet-width) {
   .footer {
-    flex-direction: row;
-    justify-content: space-between;
-
     &--index {
       display: flex;
     }
+  }
+
+  .footer__logo {
+    margin: 0;
+  }
+
+  .footer__wrap {
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .footer {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .footer__wrap {
+    width: 940px;
   }
 }
