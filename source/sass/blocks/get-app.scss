@@ -121,3 +121,28 @@
     width: 300px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .get-app__image {
+    min-height: 853px;
+    background-size: 555px 644px, cover;
+    background-position: bottom right 170px, center;
+  }
+
+  .get-app__tagline {
+    font-size: 50px;
+    line-height: 60px;
+    width: auto;
+    margin-bottom: 50px;
+  }
+
+  .get-app__content {
+    left: 130px;
+    top: 190px;
+  }
+
+  .get-app__list {
+    margin-top: 75px;
+    margin-bottom: 50px;
+  }
+}
