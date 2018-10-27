@@ -1,6 +1,30 @@
+.logo {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 22.5px;
+  padding-bottom: 22.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid #000000;
+}
+
 @media (min-width: $tablet-width) {
-  .logo {
+  .logo__image {
     width: 147px;
     height: 40px;
+  }
+
+  .logo {
+    align-items: flex-end;
+    padding-bottom: 45px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo {
+    padding: 0;
   }
 }

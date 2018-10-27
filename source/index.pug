@@ -8,17 +8,18 @@ html(lang="ru")
   body.page
     header.header
       nav.navigation
-        ul.navigation__list
-          li.navigation__item
-            img(src="img/logo-pink-white-mobile.svg" alt="Пинк" height="22" width="75").logo
+        div.navigation__wrap
+          div.logo
+            img(src="img/logo-pink-white-mobile.svg" alt="Пинк" height="22" width="75").logo__image
             button.navigation__button.navigation__button--close(type="button") Открыть/закрыть меню
-          li.navigation__item Главная
-          li.navigation__item
-            a.navigation__link(href="photo.html") Фотографии
-          li.navigation__item
-            a.navigation__link(href="form.html") Конкурс
-          li.navigation__item
-            a.navigation__link(href="https://htmlacademy.ru/intensive/adaptive" target="_blank") HTML Academy
+          ul.navigation__list
+            li.navigation__item Главная
+            li.navigation__item
+              a.navigation__link(href="photo.html") Фотографии
+            li.navigation__item
+              a.navigation__link(href="form.html") Конкурс
+            li.navigation__item
+              a.navigation__link(href="https://htmlacademy.ru/intensive/adaptive" target="_blank") HTML Academy
 
     main.main
       h1.visually-hidden Пинк
