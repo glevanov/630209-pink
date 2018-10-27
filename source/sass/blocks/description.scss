@@ -137,11 +137,73 @@
 }
 
 @media (min-width: $desktop-width) {
+  .description {
+    padding-top: 65px;
+  }
+
+  .description__intro {
+    margin-bottom: 175px;
+  }
+
   .description__image {
     display: none;
   }
 
   .description__content {
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 870px;
+  }
+
+  .description__item {
+    margin-left: 0;
+    margin-right: 0;
+    width: 230px;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: -358px;
+      left: -28px;
+      z-index: 50;
+      content: "";
+      width: 292px;
+      height: 302px;
+      background-image: url("../img/iphone-screen-3-desktop@1x.png");
+      background-repeat: no-repeat;
+    }
+  }
+
+  .description__tagline {
+    font-size: 50px;
+    line-height: 60px;
+
+    &--break {
+      width: 420px;
+    }
+  }
+
+  .description__lead {
+    font-size: 30px;
+    line-height: 30px;
+    width: 225px;
+    margin-bottom: 25px;
+  }
+
+  .description__text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .description__wrap {
+    &::after {
+      top: -95px;
+      border-bottom-width: 95px;
+    }
   }
 }

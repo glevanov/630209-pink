@@ -56,4 +56,28 @@
   .effect {
     background-color: $bg-accent-color;
   }
+
+  .effect__content {
+    width: 530px;
+    margin-right: 175px;
+    margin-top: 100px;
+    padding-bottom: 115px;
+  }
+
+  .effect__tagline {
+    width: auto;
+    line-height: 30px;
+    margin-bottom: 25px;
+  }
+
+  .effect__text {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .effect__link {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
