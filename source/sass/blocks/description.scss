@@ -182,11 +182,13 @@
         background-image: url("../img/iphone-screen-1-desktop@1x.png");
       }
     }
+
     &--two {
       &::before {
         background-image: url("../img/iphone-screen-2-desktop@1x.png");
       }
     }
+
     &--three {
       &::before {
         background-image: url("../img/iphone-screen-3-desktop@1x.png");
