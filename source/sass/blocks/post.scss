@@ -33,7 +33,7 @@
   background-color: $bg-accent-color;
   color: $text-default-color;
 
-  margin-bottom: 42px;
+  margin-bottom: 22px;
   width: 280px;
   margin-left: auto;
   margin-right: auto;
@@ -55,6 +55,7 @@
   font-size: 12px;
   line-height: 24px;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .post__text {
@@ -83,14 +84,42 @@
     width: 300px;
     min-height: 155px;
     margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
 
     &--panorama {
       width: 620px;
       margin-left: auto;
+      margin-bottom: 50px;
+      min-height: 121px;
+      flex-direction: row;
     }
   }
 
   .post__panorama-title {
     top: 57px;
+  }
+
+  .post__author {
+    order: 1;
+    padding-top: 20px;
+    margin-left: 25px;
+  }
+
+  .post__time {
+    margin-left: 5px;
+  }
+
+  .post__text {
+    order: 2;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .post__body--panorama .post__text {
+    order: 3;
   }
 }

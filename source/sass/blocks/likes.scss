@@ -3,6 +3,7 @@
   align-items: center;
   margin-left: 15px;
   margin-top: 10px;
+  padding-bottom: 20px;
 }
 
 .likes__counter {
@@ -24,4 +25,34 @@
   background-color: transparent;
   background-image: url("../img/icon-heart.svg");
   background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+  .likes {
+    margin-top: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    flex-direction: row-reverse;
+    order: 3;
+    justify-content: space-between;
+  }
+
+  .likes__counter {
+    margin-left: 0;
+  }
+
+  .post--panorama .likes {
+    order: 2;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: auto;
+  }
+
+  .post--panorama .likes__button {
+    margin-left: 20px;
+  }
 }
