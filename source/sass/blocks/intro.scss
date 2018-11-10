@@ -54,3 +54,14 @@
     padding-bottom: 80px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .intro__image {
+    min-height: 395px;
+  }
+
+  .intro__description {
+    width: 575px;
+    padding-bottom: 90px;
+  }
+}

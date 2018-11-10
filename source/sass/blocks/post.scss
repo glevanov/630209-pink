@@ -114,12 +114,36 @@
 
   .post__text {
     order: 2;
-    width: 100%;
     margin-left: 25px;
     margin-right: 25px;
   }
 
   .post__body--panorama .post__text {
     order: 3;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .post__picture {
+    height: 400px;
+
+    &--panorama {
+      height: 506px;
+      width: 1200px;
+    }
+  }
+
+  .post__body {
+    margin-bottom: 50px;
+
+    &--panorama {
+      min-height: 96px;
+      width: 940px;
+    }
+  }
+
+  .post__panorama-title {
+    top: 53px;
+    right: 130px;
   }
 }
