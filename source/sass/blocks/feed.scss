@@ -10,7 +10,15 @@
 }
 
 @media (min-width: $desktop-width) {
+  .feed li {
+    margin-right: 20px;
+  }
+
   .feed li:nth-of-type(3n+2) {
-    margin-left: 110px;
+    margin-left: auto;
+  }
+
+  .feed li:nth-of-type(3n+4) {
+    margin-right: auto;
   }
 }

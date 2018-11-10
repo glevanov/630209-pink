@@ -126,6 +126,7 @@
 @media (min-width: $desktop-width) {
   .post__picture {
     height: 400px;
+    margin-left: 0;
 
     &--panorama {
       height: 506px;
@@ -135,10 +136,12 @@
 
   .post__body {
     margin-bottom: 50px;
+    margin-left: 0;
 
     &--panorama {
       min-height: 96px;
       width: 940px;
+      margin-left: auto;
     }
   }
 
